@@ -2,8 +2,9 @@ package testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import PageObjects.AccountRegistrationPage;
-import PageObjects.HomePage;
+
+import pageObjects.AccountRegistrationPage;
+import pageObjects.HomePage;
 import testBase.BaseClass;
 
 public class TC_001_AccountRegistrationTest extends BaseClass{

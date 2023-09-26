@@ -7,13 +7,27 @@
   <test thread-count="5" name="OpencartTest(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_LoginDDT">
+      <class name="testCases.TC_006_EndToEndTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endToendTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_006_EndToEndTest -->
+      <class name="testCases.TC_005_AddToCartPageTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="test_loginDDT" invocation-numbers="0 4"/>
+          <include name="test_addToCart"/>
         </methods>
-      </class> <!-- testCases.TC_003_LoginDDT -->
+      </class> <!-- testCases.TC_005_AddToCartPageTest -->
+      <class name="testCases.TC_004_SearchProductTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test_pruductSearch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_004_SearchProductTest -->
     </classes>
   </test> <!-- OpencartTest(failed) -->
 </suite> <!-- Failed suite [OpencartSuite] -->

@@ -3,9 +3,9 @@ package testCases;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-import PageObjects.HomePage;
-import PageObjects.LoginPage;
-import PageObjects.MyAccountPage;
+import pageObjects.HomePage;
+import pageObjects.LoginPage;
+import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 import utilities.DataProviders;
 
